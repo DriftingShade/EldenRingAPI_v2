@@ -19,10 +19,10 @@ function createBossCard(data) {
     <img src="${data[0].image}" class="card-img-top" alt="${data[0].name}">
     <div class="card-body">
     <h5 class="card-title">${data[0].name}</h5>
-    <p class="card-text">Description: ${data[0].description}</p>
-    <p class="card-text">Location: ${data[0].location}</p>
-    <p class="card-text">HP: ${data[0].healthPoints}</p>
-    <p class="card-text">Drops: ${data[0].drops}</p>
+    <p class="card-text"><strong>Description:</strong> ${data[0].description}</p>
+    <p class="card-text"><strong>Location:</strong> ${data[0].location}</p>
+    <p class="card-text"><strong>HP:</strong> ${data[0].healthPoints}</p>
+    <p class="card-text"><strong>Drops:</strong> ${data[0].drops}</p>
     <a href="#" class="btn btn-danger">DELETE</a>
     </div>
     </div>`;
